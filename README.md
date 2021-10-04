@@ -6,6 +6,7 @@ Solutions of various problems in Dyalog APL
 
 ### Statistics - APL Functions
 **Note:** Unless noted otherwise, each function below takes a 1-D array of numbers as input.
+
 - Arithmetic Mean - `+/÷≢`
 - Geometric  Mean - `×/*(÷≢)`
-- Harmonic   Mean - `{÷+/÷⍵}`
+- Harmonic   Mean - `{÷+/÷⍵}×≢`
