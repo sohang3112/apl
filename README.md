@@ -10,3 +10,4 @@ Solutions of various problems in Dyalog APL
 - Arithmetic Mean - `+/÷≢`
 - Geometric  Mean - `×/*(÷≢)`
 - Harmonic   Mean - `{÷+/÷⍵}×≢`
+- Variance        - `(+/2*⍨⊢-+/÷≢)÷(¯1+≢)`
