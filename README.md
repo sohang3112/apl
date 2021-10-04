@@ -7,7 +7,8 @@ Solutions of various problems in Dyalog APL
 ### Statistics - APL Functions
 **Note:** Unless noted otherwise, each function below takes a 1-D array of numbers as input.
 
-- Arithmetic Mean - `+/÷≢`
-- Geometric  Mean - `×/*(÷≢)`
-- Harmonic   Mean - `{÷+/÷⍵}×≢`
-- Variance        - `(+/2*⍨⊢-+/÷≢)÷(¯1+≢)`
+- Arithmetic Mean - `avg ← +/÷≢`
+- Geometric Mean - `gmean ← ×/*(÷≢)`
+- Harmonic Mean - `hmean ← {÷+/÷⍵}×≢`
+- Variance - `var ← (+/2*⍨⊢-avg)÷(¯1+≢)`
+- Standard Deviation - `stddev ← .5*⍨var`
