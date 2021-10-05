@@ -15,7 +15,7 @@ Solutions of various problems in Dyalog APL
 - Standard Deviation / RMS (Root Mean Square) - `stddev ← .5*⍨var`
 
 #### Dyadic (Two Argument) Functions
-**Note:** The values given for each function are (Left,Right) arguments to the function. Both are 1-D arrays.
+**Note:** Each function below has left argument Frequencies, right argument Data. Both arguments are 1-D arrays.
 
-- Inner Product / Weighted Mean / Arithmetic Mean for Sample Proportions - `ip ← +.×` with inputs (Frequency, Values)
-- Variance for Sample Proportions - `varsample ← {⍺ +.× 2*⍨(⊢-avg)⍵}` with inputs (Frequency, Values)
+- Inner Product / Weighted Mean / Arithmetic Mean for Sample Proportions - `ip ← +.×`
+- Variance for Sample Proportions - `varsample ← +.× ∘ ((2*⍨⊢-avg)⊢)`
