@@ -8,7 +8,7 @@ Solutions of various problems in Dyalog APL
 **Note:** Unless otherwise noted, the inputs to all listed functions are 1-D Arrays.
 
 #### Monadic (Single Argument) Functions
-- Arithmetic Mean - `avg ← +/÷≢`
+- Arithmetic Mean / Average - `avg ← +/÷≢`
 - Geometric Mean - `gmean ← ×/*(÷≢)`
 - Harmonic Mean - `hmean ← {÷+/÷⍵}×≢`
 - Variance - `var ← (+/2*⍨⊢-avg)÷(¯1+≢)`
