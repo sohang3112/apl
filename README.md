@@ -2,7 +2,8 @@
 Solutions of various problems in Dyalog APL
 
 ## Solutions List
-- FizzBuzz (upto 100) -> `{⊃(1+2⊥0=5 3|⍵)⌷⍵ 'Fizz' 'Buzz' 'FizzBuzz'}¨⍳100`
+- FizzBuzz (upto 100) - `{⊃(1+2⊥0=5 3|⍵)⌷⍵ 'Fizz' 'Buzz' 'FizzBuzz'}¨⍳100`
+- Swastika Symbol - `' -|'[1+3∘.((0 2∊⍨-⍨)×(1+2|⊣))⍥⍳5]`
 
 ### Statistics - APL Functions
 **Note:** Unless otherwise noted, the inputs to all listed functions are 1-D Arrays.
