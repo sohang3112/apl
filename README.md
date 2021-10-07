@@ -6,9 +6,9 @@ Solutions of various problems in Dyalog APL
 - Swastika Symbol - `' -|'[1+3∘.((0 2∊⍨-⍨)×(1+2|⊣))⍥⍳5]`
 
 ### Algebra
-- Function to evaluate a polynomial at a value - `{(⌽⍵)+.×⍺*¯1+⍳≢⍵}` 
-    where `⍵` (right argument) is an array of coefficients of polynomial (highest power to lowest (constant) power)
-          `⍺` (left argument) is value at which polynomial is to be evaluated.
+- Function to evaluate a polynomial at a value - `{(⌽⍵)+.×⍺*¯1+⍳≢⍵}` where:
+    - `⍵` (right argument) is an array of coefficients of polynomial (highest power to lowest (constant) power)
+    - `⍺` (left argument) is value at which polynomial is to be evaluated.
 
 ### Statistics - APL Functions
 **Note:** Unless otherwise noted, the inputs to all listed functions are 1-D Arrays.
