@@ -11,7 +11,7 @@ Solutions of various problems in Dyalog APL
     - `⍵` (right argument) is an array of coefficients of polynomial (highest power to lowest (constant) power)
     - `⍺` (left argument) is value at which polynomial is to be evaluated.
  
- - Function to compare two arrays by priority - `1↑0,⍨(0~⍨-)`, i.e.,
+ - Function to compare two arrays by priority - `×1↑0,⍨(0~⍨-)`, i.e.,
    first compare first elements, then second elements, and so on until the arrays diverge.
    The result is `1` (Left > Right), `¯1` (Left < Right) or `0` (Left = Right).
 
