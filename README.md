@@ -1,5 +1,5 @@
 # APL Idioms & Solutions
-Solutions of various problems in Dyalog APL  
+Solutions of various problems in **Dyalog APL** 
 **Note:** You can try all the code below at [Try APL](tryapl.org).
 
 ## Solutions List
@@ -30,7 +30,7 @@ See the [reference](https://dfns.dyalog.com/n_Dates.htm).
 - Arithmetic Mean / Average - `avg ← +/÷≢`
 - Geometric Mean - `gmean ← ×/*(÷≢)`
 - Harmonic Mean - `hmean ← {÷+/÷⍵}×≢`
-- Variance - `var ← (+/2*⍨⊢-avg)÷(¯1+≢)`
+- Variance - `var ← (2+.*⍨⊢-avg)÷¯1+≢`
 - Standard Deviation / RMS (Root Mean Square) - `stddev ← .5*⍨var`
 
 #### Dyadic (Two Argument) Functions
