@@ -6,6 +6,14 @@ Solutions of various problems in Dyalog APL
 - FizzBuzz (upto 100) - `{⊃(1+2⊥0=5 3|⍵)⌷⍵ 'Fizz' 'Buzz' 'FizzBuzz'}¨⍳100`
 - Swastika Symbol - `' -|'[1+3∘.((0 2∊⍨-⍨)×(1+2|⊣))⍥⍳5]`
 
+### Date & Time
+See the [reference](https://dfns.dyalog.com/n_Dates.htm).
+
+```
+ ⎕CY'dfns'                ⍝ load date-time library
+ ⎕TS timestamp 'Now'      ⍝ get current timestamp, and format it
+ ```
+
 ### Algebra
 - Function to evaluate a polynomial at a value - `{(⌽⍵)+.×⍺*¯1+⍳≢⍵}` where:
     - `⍵` (right argument) is an array of coefficients of polynomial (highest power to lowest (constant) power)
