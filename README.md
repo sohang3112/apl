@@ -28,6 +28,7 @@ See the [reference](https://dfns.dyalog.com/n_Dates.htm).
 
 #### Monadic (Single Argument) Functions
 - Arithmetic Mean / Average - `avg ← +/÷≢`
+- Running Average - `+\÷(⍳≢)`
 - Geometric Mean - `gmean ← ×/*(÷≢)`
 - Harmonic Mean - `hmean ← {÷+/÷⍵}×≢`
 - Variance - `var ← (2+.*⍨⊢-avg)÷¯1+≢`
