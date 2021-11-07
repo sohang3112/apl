@@ -23,7 +23,10 @@ See the [reference](https://dfns.dyalog.com/n_Dates.htm).
 - Function to evaluate a polynomial at a value - `{(⌽⍵)+.×⍺*¯1+⍳≢⍵}` where:
     - `⍵` (right argument) is an array of coefficients of polynomial (highest power to lowest (constant) power)
     - `⍺` (left argument) is value at which polynomial is to be evaluated.
- 
+  **Note:** This might be inefficient, since calculating power for each index is expensive.
+  Instead it might be better to do something similar to this Haskell: `iterate (2*) 1`.
+  
+
  - Function to compare two arrays by priority - `×1↑0,⍨(0~⍨-)`, i.e.,
    first compare first elements, then second elements, and so on until the arrays diverge.
    The result is `1` (Left > Right), `¯1` (Left < Right) or `0` (Left = Right).
