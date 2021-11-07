@@ -2,9 +2,13 @@
 Solutions of various problems in **Dyalog APL** 
 **Note:** You can try all the code below at [Try APL](tryapl.org).
 
+
+
+
 ## Solutions List
 - FizzBuzz (upto 100) - `{⊃(1+2⊥0=5 3|⍵)⌷⍵ 'Fizz' 'Buzz' 'FizzBuzz'}¨⍳100`
 - Swastika Symbol - `' -|'[1+3∘.((0 2∊⍨-⍨)×(1+2|⊣))⍥⍳5]`
+
 
 ### Date & Time
 See the [reference](https://dfns.dyalog.com/n_Dates.htm).
@@ -14,6 +18,7 @@ See the [reference](https://dfns.dyalog.com/n_Dates.htm).
  ⎕TS timestamp 'Now'      ⍝ get current timestamp, and format it
  ```
 
+
 ### Algebra
 - Function to evaluate a polynomial at a value - `{(⌽⍵)+.×⍺*¯1+⍳≢⍵}` where:
     - `⍵` (right argument) is an array of coefficients of polynomial (highest power to lowest (constant) power)
@@ -22,6 +27,12 @@ See the [reference](https://dfns.dyalog.com/n_Dates.htm).
  - Function to compare two arrays by priority - `×1↑0,⍨(0~⍨-)`, i.e.,
    first compare first elements, then second elements, and so on until the arrays diverge.
    The result is `1` (Left > Right), `¯1` (Left < Right) or `0` (Left = Right).
+
+
+### Computer Network
+- Hemming Distance - `+.(|-)` 
+     - Number of bits where two binary sequences differ. 
+
 
 ### Statistics - APL Functions
 **Note:** Unless otherwise noted, the inputs to all listed functions are 1-D Arrays.
@@ -39,3 +50,5 @@ See the [reference](https://dfns.dyalog.com/n_Dates.htm).
 
 - Inner Product / Weighted Mean / Arithmetic Mean for Sample Proportions - `ip ← +.×`
 - Variance for Sample Proportions - `varsample ← +.× ∘ ((2*⍨⊢-avg)⊢)`
+
+
