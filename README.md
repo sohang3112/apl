@@ -2,6 +2,9 @@
 Solutions of various problems in **Dyalog APL** 
 **Note:** You can try all the code below at [Try APL](tryapl.org).
 
+## Basic Idioms
+`↑A` (Mix↑↑) - converts a vector of vectors into a single matrix of scalars
+
 ## Solutions List
 - FizzBuzz (upto 100) - `{⊃(1+2⊥0=5 3|⍵)⌷⍵ 'Fizz' 'Buzz' 'FizzBuzz'}¨⍳100`
 - Swastika Symbol - `' -|'[1+3∘.((0 2∊⍨-⍨)×(1+2|⊣))⍥⍳5]`
