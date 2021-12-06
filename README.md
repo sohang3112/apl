@@ -3,7 +3,15 @@ Solutions of various problems in **Dyalog APL**
 **Note:** You can try all the code below at [Try APL](tryapl.org).
 
 ## Basic Idioms
-`↑A` (Mix↑↑) - converts a vector of vectors into a single matrix of scalars
+`↑A` (Mix) - converts a vector of vectors into a single matrix of scalars
+
+### Complex Numbers
+```
+a ← 1j2    ⍝ Complex No. (Real = 1, Imaginary = 2)
+9○a        ⍝ Get Real Part
+11○a       ⍝ Get Imaginary Part
+```
+This is the [Circle Operator](https://help.dyalog.com/18.2/Content/Language/Symbols/Circle.htm), which can be used to perform these and other trignometric operations.
 
 ## Solutions List
 - FizzBuzz (upto 100) - `{⊃(1+2⊥0=5 3|⍵)⌷⍵ 'Fizz' 'Buzz' 'FizzBuzz'}¨⍳100`
