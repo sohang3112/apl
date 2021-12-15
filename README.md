@@ -4,6 +4,7 @@ Solutions of various problems in **Dyalog APL**
 
 ## Basic Idioms
 `↑A` (Mix) - converts a vector of vectors into a single matrix of scalars
+`⍕` (Format / Round) right argument to N decimal places, where N is left argument. If N=0, then this is same as finding nearest integer to number.
 
 ### Complex Numbers
 ```
