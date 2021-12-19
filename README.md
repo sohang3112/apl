@@ -17,6 +17,7 @@ This is the [Circle Operator](https://help.dyalog.com/18.2/Content/Language/Symb
 ## Solutions List
 - FizzBuzz (upto 100) - `{⊃(1+2⊥0=5 3|⍵)⌷⍵ 'Fizz' 'Buzz' 'FizzBuzz'}¨⍳100`
 - Swastika Symbol - `' -|'[1+3∘.((0 2∊⍨-⍨)×(1+2|⊣))⍥⍳5]`
+- `{((⊢<¯1∘↑)+\⍵)/⍵}` - function that takes a boolean array and strips the last 1 (followed by all 0s)
 
 ### Date & Time
 See the [reference](https://dfns.dyalog.com/n_Dates.htm).
