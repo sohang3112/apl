@@ -14,11 +14,6 @@ a ← 1j2    ⍝ Complex No. (Real = 1, Imaginary = 2)
 ```
 This is the [Circle Operator](https://help.dyalog.com/18.2/Content/Language/Symbols/Circle.htm), which can be used to perform these and other trignometric operations.
 
-## Solutions List
-- FizzBuzz (upto 100) - `{⊃(1+2⊥0=5 3|⍵)⌷⍵ 'Fizz' 'Buzz' 'FizzBuzz'}¨⍳100`
-- Swastika Symbol - `' -|'[1+3∘.((0 2∊⍨-⍨)×(1+2|⊣))⍥⍳5]`
-- `{((⊢<¯1∘↑)+\⍵)/⍵}` - function that takes a boolean array and strips the last 1 (followed by all 0s)
-
 ### Date & Time
 See the [reference](https://dfns.dyalog.com/n_Dates.htm).
 
@@ -42,6 +37,8 @@ See the [reference](https://dfns.dyalog.com/n_Dates.htm).
  - Function to compare two arrays by priority - `×1↑0,⍨(0~⍨-)`, i.e.,
    first compare first elements, then second elements, and so on until the arrays diverge.
    The result is `1` (Left > Right), `¯1` (Left < Right) or `0` (Left = Right).
+   
+  - `{∘.(=×⍵⌷⍨⊢)⍨⍳≢⍵}` - function to create [diagonal matrix](https://en.wikipedia.org/wiki/Diagonal_matrix) using array
 
 ### Computer Network
 - Hemming Distance - `+.(|-)` 
@@ -64,4 +61,7 @@ See the [reference](https://dfns.dyalog.com/n_Dates.htm).
 - Inner Product / Weighted Mean / Arithmetic Mean for Sample Proportions - `ip ← +.×`
 - Variance for Sample Proportions - `varsample ← +.× ∘ ((2*⍨⊢-avg)⊢)`
 
-
+## Misc
+- FizzBuzz function (array upto given argument) - `{⊃(1+2⊥0=5 3|⍵)⌷⍵ 'Fizz' 'Buzz' 'FizzBuzz'}¨⍳`
+- Swastika Symbol - `' -|'[1+3∘.((0 2∊⍨-⍨)×(1+2|⊣))⍥⍳5]       ⍝ 3 5⍴'| |   - -   | |'`
+- `{((⊢<¯1∘↑)+\⍵)/⍵}` - function that takes a boolean array and strips the last 1 (followed by all 0s)
