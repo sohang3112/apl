@@ -1,5 +1,5 @@
 # APL Idioms & Solutions
-Solutions of various problems in **Dyalog APL** 
+Solutions of various problems in **Dyalog APL**  
 **Note:** You can try all the code below at [Try APL](tryapl.org).
 
 ## Basic Idioms
