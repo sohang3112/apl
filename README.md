@@ -2,6 +2,10 @@
 Solutions of various problems in **Dyalog APL**  
 **Note:** You can try all the code below at [Try APL](tryapl.org).
 
+## Benchmarking / Profiling
+- `]PERFORMANCE.runtime '10?10'` - measure execution time of the code (which is written in a string)
+- `⎕AI` - gives compute time since start of APL session (along with other information)
+
 ## Basic Idioms
 - `↑` (Mix) - converts a vector of vectors into a single matrix of scalars
 - `⍕` (Format / Round) right argument to N decimal places, where N is left argument. If N=0, then this is same as finding nearest integer to number.
