@@ -1,6 +1,8 @@
 # APL Idioms & Solutions
 Solutions of various problems in **Dyalog APL**  
-**Note:** You can try all the code below at [Try APL](tryapl.org).
+**Note:** 
+- You can try all the code below at [Try APL](tryapl.org).
+- [Learn APL](https://xpqz.github.io) is a very good web book for learning APL (using Dyalog APL).
 
 ## Benchmarking / Profiling
 - `]PERFORMANCE.runtime '10?10'` - measure execution time of the code (which is written in a string)
@@ -67,6 +69,10 @@ See the [reference](https://dfns.dyalog.com/n_Dates.htm).
 
 - Inner Product / Weighted Mean / Arithmetic Mean for Sample Proportions - `ip ← +.×`
 - Variance for Sample Proportions - `varsample ← +.× ∘ ((2*⍨⊢-avg)⊢)`
+
+## File I/O
+- [Parsing Files - Text, CSV, JSON, XML, HTTP](https://xpqz.github.io/learnapl/io.html)
+- Change Working Directory - `]CD 'directory-path-here'`
 
 ## Misc
 - FizzBuzz function (array upto given argument) - `{⊃(1+2⊥0=5 3|⍵)⌷⍵ 'Fizz' 'Buzz' 'FizzBuzz'}¨⍳`
