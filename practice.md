@@ -13,3 +13,6 @@ The full set of practice problems is available [here](https://problems.tryapl.or
 8. `∘.×⍨⍳`
 9. `{⍺÷⍨⍺+/⍵}`
 10. `(⌹⊢)+.×⊣`
+
+## 2014
+1. `(2+.*⍨⊣)=2*⍨⊢`
