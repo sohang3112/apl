@@ -5,4 +5,6 @@ The full set of practice problems is available [here](https://problems.tryapl.or
 ## 2013
 1. `¯1+2×⍳`
 2. `100×≢÷⍨65+.≤⊢`
+3. UNIMPLEMENTED
 4. `{((0=¯1↑⊢)∧(0∧.≤⊢))+\(1 ¯1 0)['()'⍳⍵]}` - Gives correct answer using Dyalog APL 18.0, however TryAPL Practice Site reports this as incorrect.
+5. `∘.=⍨⍳`
