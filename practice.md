@@ -10,3 +10,4 @@ The full set of practice problems is available [here](https://problems.tryapl.or
 5. `∘.=⍨⍳`
 6. `{⍬≡⍵:0 ⋄ 1:(⌈/-⌊/),⍵}`
 7. `{((⊢≠⌊)⍵)/⍵}`
+8. `∘.×⍨⍳`
