@@ -12,3 +12,4 @@ The full set of practice problems is available [here](https://problems.tryapl.or
 7. `{((⊢≠⌊)⍵)/⍵}`
 8. `∘.×⍨⍳`
 9. `{⍺÷⍨⍺+/⍵}`
+10. `(⌹⊢)+.×⊣`
