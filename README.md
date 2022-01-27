@@ -41,6 +41,10 @@ See the [reference](https://dfns.dyalog.com/n_Dates.htm).
 ### Algebra
 - Primary Diagonal of a Matrix - `{⍵[,⍨¨⍳≢⍵]}`
 
+- Solve System of Linear Equations - `(⌹⊢)+.×⊣` (uses Matrix Inverse Operator `⌹`)
+    - right argument is coefficient matrix
+    - left argument is vector of equation constants
+
 - Function to evaluate a polynomial at a value - `⊤⍣¯1` where:
     - right argument is an array of coefficients of polynomial (highest power to lowest (constant) power)
     - left argument is value at which polynomial is to be evaluated. 
