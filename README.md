@@ -63,6 +63,7 @@ See the [reference](https://dfns.dyalog.com/n_Dates.htm).
 **Note:** Unless otherwise noted, the inputs to all listed functions are 1-D Arrays.
 
 #### Monadic (Single Argument) Functions
+- Frequency Count - `{⍺ (≢⍵)}⌸` (returns 2D matrix whose first column is unique elements, and second column is their frequencies)
 - Arithmetic Mean / Average - `avg ← +/÷≢`
 - Running Average - `+\÷(⍳≢)`
 - Geometric Mean - `gmean ← ×/*(÷≢)`
