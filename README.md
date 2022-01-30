@@ -64,6 +64,7 @@ See the [reference](https://dfns.dyalog.com/n_Dates.htm).
 
 #### Monadic (Single Argument) Functions
 - Frequency Count - `{⍺ (≢⍵)}⌸` (returns 2D matrix whose first column is unique elements, and second column is their frequencies)
+    - See explanation for Key Operator ⌸ [here](https://xpqz.github.io/learnapl/key.html).
 - Arithmetic Mean / Average - `avg ← +/÷≢`
 - Running Average - `+\÷(⍳≢)`
 - Geometric Mean - `gmean ← ×/*(÷≢)`
