@@ -71,12 +71,21 @@ See the [reference](https://dfns.dyalog.com/n_Dates.htm).
 - Harmonic Mean - `hmean ← {÷+/÷⍵}×≢`
 - Variance - `var ← (2+.*⍨⊢-avg)÷¯1+≢`
 - Standard Deviation / RMS (Root Mean Square) - `stddev ← .5*⍨var`
+- Sigmoid Function - `sigmoid ← {÷1+*-⍵÷T}`
 
 #### Dyadic (Two Argument) Functions
 **Note:** Each function below has left argument Frequencies, right argument Data. Both arguments are 1-D arrays.
 
 - Inner Product / Weighted Mean / Arithmetic Mean for Sample Proportions - `ip ← +.×`
 - Variance for Sample Proportions - `varsample ← +.× ∘ ((2*⍨⊢-avg)⊢)`
+
+### Operators (Higher Order Functions) - take functions as argument
+- Stochastic / Probability Function - `{(?0⍴⍨⍵)≥⍺⍺⍳⍵}` - output 1 or 0 with proability given by Probability Function `⍺⍺` (input)
+  **Example** - `sigmoid {(?0⍴⍨⍵)≥⍺⍺⍳⍵} 10`
+
+## Plotting / Graphing
+- `]plot` - plots a vector on Y Axis, index on X Axis. Plot is continous by default.
+- **Example** - Plot sigmoid function with 100 data points - `]plot sigmoid ⍳100`
 
 ## File I/O
 - [Parsing Files - Text, CSV, JSON, XML, HTTP](https://xpqz.github.io/learnapl/io.html)
