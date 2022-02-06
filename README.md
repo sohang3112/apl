@@ -7,6 +7,7 @@ Solutions of various problems in **Dyalog APL**
 ## Benchmarking / Profiling
 - `]PERFORMANCE.runtime '10?10'` - measure execution time of the code (which is written in a string)
 - `⎕AI` - gives compute time since start of APL session (along with other information)
+- `∘.(=×⊢)⍨⍳N` is ~200x slower than `A ← N N⍴0 ⋄ A[,⍨¨⍳N] ← ⍳N` for creating a [Diagonal Matrix](https://en.wikipedia.org/wiki/Diagonal_matrix) for `N←1000` - I measured this with `]PERFORMANCE.runtime`!
 
 ## Basic Idioms
 - `↑` (Mix) - converts a vector of vectors into a single matrix of scalars
