@@ -1,7 +1,7 @@
 # APL Idioms & Solutions
 Solutions of various problems in **Dyalog APL**  
 **Note:** 
-- You can try all the code below at [Try APL](tryapl.org).
+- You can try most of the code below at [Try APL](tryapl.org).
 - [Learn APL](https://xpqz.github.io) is a very good web book for learning APL (using Dyalog APL).
 
 ## Workspaces
