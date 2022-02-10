@@ -4,6 +4,14 @@ Solutions of various problems in **Dyalog APL**
 - You can try all the code below at [Try APL](tryapl.org).
 - [Learn APL](https://xpqz.github.io) is a very good web book for learning APL (using Dyalog APL).
 
+## Workspaces
+- `⎕CY 'dfns'` is equivalent to `from dfns import *` in Python - i.e., import everything unqualified from given workspace.
+- [Dfns Workspace](https://aplwiki.com/wiki/Dfns_workspace) is built-in, has many useful functions.
+```
+⎕CY 'dfns'   ⍝ Import built-in workspace 'dfns'
+2 pco 30     ⍝ Prime Factorization of 30, using 'pco' function from 'dfns'
+```    
+
 ## Benchmarking / Profiling
 - `]PERFORMANCE.runtime '10?10'` - measure execution time of the code (which is written in a string)
 - `⎕AI` - gives compute time since start of APL session (along with other information)
