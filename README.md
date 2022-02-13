@@ -33,6 +33,10 @@ a ← 1j2    ⍝ Complex No. (Real = 1, Imaginary = 2)
 ```
 This is the [Circle Operator](https://help.dyalog.com/18.2/Content/Language/Symbols/Circle.htm), which can be used to perform these and other trignometric operations.
 
+**Note:** 
+- Passing a negative number as left argument gives inverse of ordinary function (eg. sine becomes inverse sine). 
+- **Example:** `11○a` gives imaginary component of `a`, so `¯11○a` "puts back" real `a` into imaginary component. In other words, `¯11○a` is the same as multiplying `a` with iota `0J1`.
+
 ### Date & Time
 See the [reference](https://dfns.dyalog.com/n_Dates.htm).
 
