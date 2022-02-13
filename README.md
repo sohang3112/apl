@@ -3,6 +3,7 @@ Solutions of various problems in **Dyalog APL**
 **Note:** 
 - You can try most of the code below at [Try APL](tryapl.org).
 - [Learn APL](https://xpqz.github.io) is a very good web book for learning APL (using Dyalog APL).
+- [APL Cultivations](https://xpqz.github.io/cultivations/Intro.html) is another good book (by the same author) about the details of Dyalog APL. (Learn APL is more about APL in general).
 
 ## Workspaces
 - `⎕CY 'dfns'` is equivalent to `from dfns import *` in Python - i.e., import everything unqualified from given workspace.
