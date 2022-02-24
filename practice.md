@@ -11,7 +11,7 @@ The full set of practice problems is available [here](https://problems.tryapl.or
 6. `{⍬≡⍵:0 ⋄ 1:(⌈/-⌊/),⍵}`
 7. `{((⊢≠⌊)⍵)/⍵}`
 8. `∘.×⍨⍳`
-9. `{⍺÷⍨⍺+/⍵}`
+9. `{⍺÷⍨⍺+/⍵}` - **TODO:** Will tacit form work? (`⊢÷⍨+/`) 
 10. `(⌹⊢)+.×⊣`
 
 ## 2014
