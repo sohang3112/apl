@@ -16,4 +16,12 @@ The full set of practice problems is available [here](https://problems.tryapl.or
 
 ## 2014
 1. `(2+.*⍨⊣)=2*⍨⊢`
+2. UNIMPLEMENTED
+3. UNIMPLEMENTED
+4. UNIMPLEMENTED
+5. UNIMPLEMENTED
+6. UNIMPLEMENTED
+7. UNIMPLEMENTED
+8. UNIMPLEMENTED
+9. UNIMPLEMENTED
 10. `{100×⌈/2(-÷⊢)⍨/⍵}`
