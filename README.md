@@ -119,3 +119,4 @@ See the [reference](https://dfns.dyalog.com/n_Dates.htm).
 - `{((⊢<¯1∘↑)+\⍵)/⍵}` - function that takes a boolean array and strips the last 1 (followed by all 0s)
 - `↑(⊢,2∘*)⊂-⍳10` - table of negative powers of 2
 - `N←50 ⋄ A←N N⍴' ' ⋄ A[(⌈N×9 11,.○⊢)¨*0j1×○(⍳N-1)÷2×N] ← '*' ⋄ A` - Prints an approximate quarter circle in a 50x50 grid.
+- `A,[0.5]'-'` - Underlines string `A` using [Laminate](#matrix).
