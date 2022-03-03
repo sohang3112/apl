@@ -22,6 +22,12 @@ Solutions of various problems in **Dyalog APL**
 - `↑` (Mix) - converts a vector of vectors into a single matrix of scalars
 - `⍕` (Format / Round) right argument to N decimal places, where N is left argument. If N=0, then this is same as finding nearest integer to number.
 
+### Matrix
+- [Laminate (comma with fractional axis)](https://mastering.dyalog.com/Working-on-Data-Shape.html) can:
+    - Join vectors into matrix as rows - `A,[0.5]B`
+    - Join vectors into matrix as columns - `A,[1.5]B`
+    - Also works for higher dimensions (see link).
+
 ### String Functions
 - `⊢⊂⍨1,' '∘=` - function to split string into words
 
