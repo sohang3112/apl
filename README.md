@@ -126,7 +126,7 @@ See the [reference](https://dfns.dyalog.com/n_Dates.htm).
 - `A,[0.5]'-'` - Underlines string `A` using [Laminate](#matrix).
 - Function that shows number spiral:
 ```
-    spiral  ← {A ← ⍵ ⍵⍴' ' ⋄ B ← ¯1↓(9 11,.○⊢)¨+\(1j1×1+⌊⍵÷2),(⊃(⍴∘1¨2/⍳),.×1 0J1 ¯1 0J¯1⍴⍨2∘×)⍵-1 ⋄ A[B] ← 2 0∘⍕¨⍳≢B ⋄ A}`
+    spiral  ← {A ← ⍵ ⍵⍴' ' ⋄ B ← ¯1↓(9 11,.○⊢)¨+\(1j1×1+⌊⍵÷2),(⊃(⍴∘1¨2/⍳),.×1 0J1 ¯1 0J¯1⍴⍨2∘×)⍵-1 ⋄ A[B] ← 2 0∘⍕¨⍳≢B ⋄ A}
     spiral 5
  20  19  18  17 
   7   6   5  16 
