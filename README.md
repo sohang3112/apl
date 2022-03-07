@@ -134,3 +134,6 @@ See the [reference](https://dfns.dyalog.com/n_Dates.htm).
   9   2   3  14 
  10  11  12  13 
 ```
+
+## Untested
+- `(⎕NEW 'Bitmap' (⊂'File' 'image-filename')).CBits` - Read an image's bitmap. Doesn't work on Linux. Supposed to work on Windows, but haven't tested it yet.
