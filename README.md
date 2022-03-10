@@ -134,6 +134,17 @@ See the [reference](https://dfns.dyalog.com/n_Dates.htm).
   9   2   3  14 
  10  11  12  13 
 ```
+- Function that puts boundary around matrix (right argument) using character (left argument):
+```
+       bounded ← {A←(2+s←⍴⍵)⍴⍺ ⋄ A[1+⍳s]←⍵ ⋄ A}
+      '#' bounded ?4 3⍴10
+#  # #  # #
+# 10 5  9 #
+#  4 2 10 #
+#  3 8  9 #
+#  3 3  6 #
+#  # #  # #
+```
 
 ## Untested
 - `(⎕NEW 'Bitmap' (⊂'File' 'image-filename')).CBits` - Read an image's bitmap. Doesn't work on Linux. Supposed to work on Windows, but haven't tested it yet.
