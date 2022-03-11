@@ -34,6 +34,7 @@ You can try most of the code below at [Try APL](tryapl.org).
 
 ### String Functions
 - `⊢⊂⍨1,' '∘=` - function to split string into words
+- `+/∘.=` - Letter frequencies of some characters (left argument) in a string (right argument) (similar to Python's `collections.Counter` class):
 
 ### Complex Numbers
 ```
