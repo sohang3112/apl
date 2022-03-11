@@ -6,8 +6,8 @@ You can try most of the code below at [Try APL](tryapl.org).
 
 ### Web Books
 - [Mastering Dyalog APL](https://mastering.dyalog.com)
-- [Learn APL](https://xpqz.github.io)
-- [APL Cultivations](https://xpqz.github.io/cultivations/Intro.html) is another good book (by the same author)
+- [Learn APL](https://xpqz.github.io/learnapl)
+- [APL Cultivations](https://xpqz.github.io/cultivations) is another good book (by the same author)
 
 ## Workspaces
 - `⎕CY 'dfns'` is equivalent to `from dfns import *` in Python - i.e., import everything unqualified from given workspace.
