@@ -25,3 +25,7 @@ The full set of practice problems is available [here](https://problems.tryapl.or
 8. UNIMPLEMENTED
 9. UNIMPLEMENTED
 10. `{100×⌈/2(-÷⊢)⍨/⍵}`
+
+## 2015
+1. `≡⍥({⍵[⍋⍵]}∘{(⍵∊⎕A)/⍵}1∘⎕C)` - Works on Windows using Dyalog APL 18.0.4, 
+   but causes **SYNTAX ERROR** in TryAPL.
