@@ -66,6 +66,9 @@ See the [reference](https://dfns.dyalog.com/n_Dates.htm).
 ### Algebra
 - Primary Diagonal of a Matrix - `{⍵[,⍨¨⍳≢⍵]}`
 
+- Sum of Vector Magnitudes - `.5+.*⍨2+.*⍨⊢`
+     where (single) argument is a 2D Matrix whose each row is one vector.
+
 - Solve System of Linear Equations - `(⌹⊢)+.×⊣` (uses Matrix Inverse Operator `⌹`)
     - right argument is coefficient matrix
     - left argument is vector of equation constants
