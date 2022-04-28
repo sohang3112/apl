@@ -122,6 +122,8 @@ See the [reference](https://dfns.dyalog.com/n_Dates.htm).
 - Change Working Directory - `]CD 'directory-path-here'`
 
 ## Misc
+- Format complex number as its real and imaginary parts seperated by a space - `⊃9 11(⊣,' ',⊢)⍥⍕.○⊢`
+    - **Example:** `1j¯2` becomes the string `'1 ¯2'`.
 - Add random noise to an array - `⊢+∘?0⍴⍨≢` (**Note:** Here, *random noise* means a random number between 0 and 1 is added to each element of array.)
 - FizzBuzz function (array upto given argument) - `{⊃(1+2⊥0=5 3|⍵)⌷⍵ 'Fizz' 'Buzz' 'FizzBuzz'}¨⍳`
 - Swastika Symbol - `' -|'[1+3∘.((0 2∊⍨-⍨)×(1+2|⊣))⍥⍳5]       ⍝ 3 5⍴'| |   - -   | |'`
