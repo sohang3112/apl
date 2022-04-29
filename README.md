@@ -9,6 +9,9 @@ You can try most of the code below at [Try APL](tryapl.org).
 - [Learn APL](https://xpqz.github.io/learnapl)
 - [APL Cultivations](https://xpqz.github.io/cultivations) is another good book (by the same author)
 
+## TODO
+- Study Power Operator `⍣` operator as a (possible) replacement for while loop.
+
 ## Workspaces
 - `⎕CY 'dfns'` is equivalent to `from dfns import *` in Python - i.e., import everything unqualified from given workspace.
 - [Dfns Workspace](https://aplwiki.com/wiki/Dfns_workspace) is built-in, has many useful functions.
