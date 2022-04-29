@@ -55,9 +55,10 @@ This is the [Circle Operator](https://help.dyalog.com/18.2/Content/Language/Symb
 See the [reference](https://dfns.dyalog.com/n_Dates.htm).
 
 ```
- ⎕CY'dfns'                ⍝ load date-time library
+ ⎕CY'dfns'                ⍝ load workspace dfns (built-in)
  ⎕TS timestamp 'Now'      ⍝ get current timestamp, and format it
  ```
+
  #### Time of Day
  ```
  Text  ← 'night' 'evening' 'afternoon' 'morning'
@@ -67,7 +68,7 @@ See the [reference](https://dfns.dyalog.com/n_Dates.htm).
  ```
  
 ### Algebra
-- Primary Diagonal of a Matrix - `{⍵[,⍨¨⍳≢⍵]}`
+- Primary Diagonal of a Matrix - `1 1∘⍉`
 
 - Sum of Vector Magnitudes - `.5+.*⍨2+.*⍨⊢`
      where (single) argument is a 2D Matrix whose each row is one vector.
