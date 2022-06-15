@@ -126,6 +126,8 @@ See the [reference](https://dfns.dyalog.com/n_Dates.htm).
 - Change Working Directory - `]CD 'directory-path-here'`
 
 ## Misc
+
+### Functions
 - Format complex number as its real and imaginary parts seperated by a space - `⊃9 11(⊣,' ',⊢)⍥⍕.○⊢`
     - **Example:** `1j¯2` becomes the string `'1 ¯2'`.
 - Add random noise to an array - `⊢+∘?0⍴⍨≢` (**Note:** Here, *random noise* means a random number between 0 and 1 is added to each element of array.)
@@ -152,10 +154,45 @@ See the [reference](https://dfns.dyalog.com/n_Dates.htm).
 #  # #  # #
 # 10 5  9 #
 #  4 2 10 #
-#  3 8  9 #
+#  3 8  9 #a
 #  3 3  6 #
 #  # #  # #
 ```
+
+### Real Life Problems
+- Suppose we collect data on `N` characterstics of a large group of people. What is the probability that a person exists who falls within 1 Standard Deviation from Average for all characterstics?
+
+To find out, let's tabulate probabilities using `N` from 1 to 20:
+```
+       (⊢,[1.5](0.68∘*))⍳20       
+ 1 0.68           
+ 2 0.4624         
+ 3 0.314432       
+ 4 0.21381376     
+ 5 0.1453933568   
+ 6 0.09886748262  
+ 7 0.06722988818  
+ 8 0.04571632397  
+ 9 0.0310871003   
+10 0.0211392282   
+11 0.01437467518  
+12 0.00977477912  
+13 0.006646849802 
+14 0.004519857865 
+15 0.003073503348 
+16 0.002089982277 
+17 0.001421187948 
+18 0.0009664078048
+19 0.0006571573073
+20 0.000446866969 
+```
+
+Or plot the probabilities as a graph: `]plot 0.68*⍳20`  
+![Plot Image](std-dev-prob-graph.png "Probability Graph")
+
+It's clear from both the table and the graph that the probability of the average person (who falls within 1 Standard Deviation in all charactestics) existing becomes very low as the no. of characterstics `N` increases.
+
+In other words, **the average person doesn't exist!**
 
 ## Untested
 - `(⎕NEW 'Bitmap' (⊂'File' 'image-filename')).CBits` - Read an image's bitmap. Doesn't work on Linux. Supposed to work on Windows, but haven't tested it yet.
