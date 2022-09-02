@@ -122,8 +122,9 @@ See the [reference](https://dfns.dyalog.com/n_Dates.htm).
 - **Example** - Plot sigmoid function with 100 data points - `]plot sigmoid ⍳100`
 
 ## File I/O
-- [Parsing Files - Text, CSV, JSON, XML, HTTP](https://xpqz.github.io/learnapl/io.html)
+- [Parsing Files - Text, CSV, XML, HTTP](https://xpqz.github.io/learnapl/io.html)
 - Change Working Directory - `]CD 'directory-path-here'`
+- [JSON (detailed)](https://xpqz.github.io/learnapl/io.html#reading-json-json)
 
 ## Misc
 
