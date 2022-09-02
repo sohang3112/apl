@@ -11,9 +11,10 @@ You can try most of the code below at [Try APL](tryapl.org).
 - [Learn APL](https://xpqz.github.io/learnapl)
 - [APL Cultivations](https://xpqz.github.io/cultivations) is another good book (by the same author)
 
-### Lists of REsources
+### Lists of Resources
 - [Discord: APL Resources](https://discord.com/channels/821509511977762827/821511868744728647)
 - [Discord: APL Recommendations](https://discord.com/channels/821509511977762827/915731546160386099)
+- [APL News](https://apl.news/)
 
 ## TODO
 - Study Power Operator `⍣` operator as a (possible) replacement for while loop.
