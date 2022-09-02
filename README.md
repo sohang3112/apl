@@ -1,6 +1,8 @@
 # APL Idioms & Solutions
 Solutions of various problems in **Dyalog APL**  
 
+**Note:** An overview of the most used APL symbols can be found in [this cheatsheet](https://awagga.github.io/dyalog/voc/).
+
 ## Resources
 You can try most of the code below at [Try APL](tryapl.org).
 
@@ -9,7 +11,9 @@ You can try most of the code below at [Try APL](tryapl.org).
 - [Learn APL](https://xpqz.github.io/learnapl)
 - [APL Cultivations](https://xpqz.github.io/cultivations) is another good book (by the same author)
 
-**Note:** [This Discord Channel](https://discord.com/channels/821509511977762827/821511868744728647) has an excellent list of APL resources.
+### Lists of REsources
+- [Discord: APL Resources](https://discord.com/channels/821509511977762827/821511868744728647)
+- [Discord: APL Recommendations](https://discord.com/channels/821509511977762827/915731546160386099)
 
 ## TODO
 - Study Power Operator `⍣` operator as a (possible) replacement for while loop.
