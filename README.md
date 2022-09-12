@@ -136,6 +136,7 @@ See the [reference](https://dfns.dyalog.com/n_Dates.htm).
 ## Misc
 
 ### Functions
+- Number of times sorting directions (ascending or descending) change in a 1D array: `≢0~⍨2-/⊢`
 - Format complex number as its real and imaginary parts seperated by a space - `⊃9 11(⊣,' ',⊢)⍥⍕.○⊢`
     - **Example:** `1j¯2` becomes the string `'1 ¯2'`.
 - Add random noise to an array - `⊢+∘?0⍴⍨≢` (**Note:** Here, *random noise* means a random number between 0 and 1 is added to each element of array.)
