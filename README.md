@@ -119,6 +119,7 @@ See the [reference](https://dfns.dyalog.com/n_Dates.htm).
 - Sigmoid Function - `sigmoid ← {÷1+*-⍵÷⍺}`
      - Right Argument `⍵` is actual input
      - Left Argument `⍺` is called **Temperature** (just a mathematical term!)
+- [Pearson Correlation Coefficient](https://byjus.com/jee/correlation-coefficient/) - `correlation ← (+.×÷0.5*⍨×⍥(+/*∘2))⍥(⊢-+/÷≢)
 
 ### Operators (Higher Order Functions) - take functions as argument
 - Stochastic / Probability Function - `{(?0⍴⍨⍵)≥⍺⍺⍳⍵}` - output 1 or 0 with probability given by Probability Function `⍺⍺` (input)
