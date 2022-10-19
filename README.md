@@ -134,6 +134,15 @@ See the [reference](https://dfns.dyalog.com/n_Dates.htm).
 - Change Working Directory - `]CD 'directory-path-here'`
 - [JSON (detailed)](https://xpqz.github.io/learnapl/io.html#reading-json-json)
 
+## Graphs / Plots
+- [Random Walk](https://en.wikipedia.org/wiki/Random_walk) - Looks like Stock History!
+```apl
+random_walk ← {⍵+|+\0.5-?⍺,1000⍴0}        ⍝ ⍵ ← minimum stock value (≥ 0), ⍺ ← initial investment
+]plot 100 random_walk 0.5
+```
+![image](https://user-images.githubusercontent.com/31966963/196658285-a7b2966d-ce70-4e97-908e-bf7db6068fe0.png)
+
+
 ## Misc
 
 ### Functions
