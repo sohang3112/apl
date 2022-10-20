@@ -145,8 +145,8 @@ random_walk ← {⍵+|+\⍺,0.5-?N⍴0}        ⍝ ⍵ ← minimum stock value (
 
 - Random Walk with Upward Drift
 ```apl
-drift ← 0.01                           ⍝ per day
-]plot (.01*⍳N) +  0 random_walk 0.5
+D ← 0.01                           ⍝ drift per day
+]plot (D*⍳N) +  0 random_walk 0.5
 ```
 ![Random Walk with Upward Drift](https://user-images.githubusercontent.com/31966963/196716760-3d85e805-1599-41ba-9329-428bb18abfae.png)
 
