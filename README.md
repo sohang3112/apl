@@ -129,26 +129,30 @@ See the [reference](https://dfns.dyalog.com/n_Dates.htm).
 - `]plot` - plots a vector on Y Axis, index on X Axis. Plot is continous by default.
 - **Example** - Plot sigmoid function with 100 data points - `]plot sigmoid ⍳100`
 
-## File I/O
-- [Parsing Files - Text, CSV, XML, HTTP](https://xpqz.github.io/learnapl/io.html)
-- Change Working Directory - `]CD 'directory-path-here'`
-- [JSON (detailed)](https://xpqz.github.io/learnapl/io.html#reading-json-json)
-
-## Graphs / Plots
-- [Random Walk](https://en.wikipedia.org/wiki/Random_walk) - Looks like Stock History!
+### Stochastic / Probabilistic Plots
+- [Random Walk](https://en.wikipedia.org/wiki/Random_walk)
 ```apl
-N ← 1000
+N ← 1000                               ⍝ no. of data points. Plot becomes more detailed with increased N
 random_walk ← {⍵+|+\⍺,0.5-?N⍴0}        ⍝ ⍵ ← minimum stock value (≥ 0), ⍺ ← initial investment
 ]plot 47 random_walk 0.5
 ```
+**Note:** `N` (global variable) controls the no. of data points in the plot. Plot becomes more detailed with increased `N`.
 ![Random Walk (Sample Image)](https://user-images.githubusercontent.com/31966963/196658285-a7b2966d-ce70-4e97-908e-bf7db6068fe0.png)
 
 - Random Walk with Upward Drift
 ```apl
+N ← 10000                          ⍝ Very detailed plot
 D ← 0.01                           ⍝ drift per day
-]plot (D*⍳N) +  0 random_walk 0.5
+]plot (D*⍳N) + 0 random_walk 0.5
 ```
 ![Random Walk with Upward Drift](https://user-images.githubusercontent.com/31966963/196716760-3d85e805-1599-41ba-9329-428bb18abfae.png)
+
+
+
+## File I/O
+- [Parsing Files - Text, CSV, XML, HTTP](https://xpqz.github.io/learnapl/io.html)
+- Change Working Directory - `]CD 'directory-path-here'`
+- [JSON (detailed)](https://xpqz.github.io/learnapl/io.html#reading-json-json)
 
 
 ## Misc
