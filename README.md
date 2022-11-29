@@ -6,6 +6,9 @@ Solutions of various problems in **Dyalog APL**
 ## Resources
 You can try most of the code below at [Try APL](tryapl.org).
 
+### Translating between Numpy (Python) and APL
+[Jupyter Notebook](https://github.com/ThePoetCoder/APL-to-NumPy/blob/main/APL%20to%20NumPy.ipynb)
+
 ### Web Books
 - [Mastering Dyalog APL](https://mastering.dyalog.com)
 - [Learn APL](https://xpqz.github.io/learnapl)
