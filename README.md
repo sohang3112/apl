@@ -161,6 +161,15 @@ D ← 0.01                           ⍝ drift per day
 ## Misc
 
 ### Functions
+- Calcuating tax according to tax slabs:
+```apl
+tax_calculate ← {(⍺[;2]÷100)+.×2-/⍵,⍺[;1]}      
+
+⍝ This line means: >Rs. 10L => 35% Tax, >Rs. 7L => 20% Tax, >Rs. 5L => 35% Tax, >Rs. 0L => 0% Tax
+M ← ↑(10 35) (7 20) (5 15) (0 0)           ⍝ Left column of matrix is in Rs. Lakhs, second column is Tax %
+X ← 100                                    ⍝ Rs. Lakhs
+M tax_calculate X                          ⍝ Returns: 32.4 (Rs. Lakhs)
+```
 - Number of times sorting directions (ascending or descending) change in a 1D array: `≢0~⍨2-/⊢`
 - Format complex number as its real and imaginary parts seperated by a space - `⊃9 11(⊣,' ',⊢)⍥⍕.○⊢`
     - **Example:** `1j¯2` becomes the string `'1 ¯2'`.
