@@ -54,6 +54,9 @@ You can try most of the code below at [Try APL](tryapl.org).
 a ← 1j2    ⍝ Complex No. (Real = 1, Imaginary = 2)
 9○a        ⍝ Get Real Part
 11○a       ⍝ Get Imaginary Part
+
+⍝ Monadic × gives sign of real numbers, but does something different with complex numbers: 
+×3J4       ⍝ 0.6J0.8 - complex number with same phase but magnitude 1
 ```
 This is the [Circle Operator](https://help.dyalog.com/18.2/Content/Language/Symbols/Circle.htm), which can be used to perform these and other trignometric operations.
 
