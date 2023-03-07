@@ -41,6 +41,10 @@ You can try most of the code below at [Try APL](tryapl.org).
 !5      ⍝ 120 - Factorial of 5
 3!5     ⍝ nCr (n=5, r=3) <- No. of combinations of r units from total n units
 ```
+- `⍷` (Dyadic only) - Finds starting positions of substring in string. Example:
+```apl
+'issi' ⍷ 'Missisipi'   ⍝ 0 1 0 0 1 0 0 0 0 0
+```
 - `↑` (Mix) - converts a vector of vectors into a single matrix of scalars
 - `⍕` (Format / Round) right argument to N decimal places, where N is left argument. If N=0, then this is same as finding nearest integer to number.
 
