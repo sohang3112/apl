@@ -45,8 +45,12 @@ You can try most of the code below at [Try APL](tryapl.org).
 ```apl
 'issi' ⍷ 'Missisipi'   ⍝ 0 1 0 0 1 0 0 0 0 0
 ```
-- `↑` (Mix) - converts a vector of vectors into a single matrix of scalars
-- `⍕` (Format / Round) right argument to N decimal places, where N is left argument. If N=0, then this is same as finding nearest integer to number.
+- `↑` (**Dyadic**: Take first N elems, **Monadic**: Mix / converts a vector of vectors to a single matrix of scalars)
+```apl
+⍝ If we try to take more elements than size of argument, then rest are padded with 0s
+5↑1 4        ⍝ 1 4 0 0 0
+```
+- `⍕` (**Dyadic**: Format / Round) right argument to N decimal places, where N is left argument. If N=0, then this is same as finding nearest integer to number.
 
 ### Matrix
 - [Laminate (comma with fractional axis)](https://mastering.dyalog.com/Working-on-Data-Shape.html) can:
