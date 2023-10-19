@@ -14,7 +14,7 @@ You can try most of the code below at [Try APL](tryapl.org).
 - [Mastering Dyalog APL](https://mastering.dyalog.com)
 - [Learn APL](https://xpqz.github.io/learnapl)
 - [APL Cultivations](https://xpqz.github.io/cultivations) is another good book (by the same author)
-- [Conventional Neural Networks with APL](https://dl.acm.org/doi/10.1145/3315454.3329960)
+- [Conventional Neural Networks with APL](https://dl.acm.org/doi/10.1145/3315454.3329960) - see its complete code in [its Github repo](https://github.com/ashinkarov/cnn-in-apl)
 
 ### Lists of Resources
 - [Discord: APL Resources](https://discord.com/channels/821509511977762827/821511868744728647)
