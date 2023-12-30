@@ -57,6 +57,15 @@ You can try most of the code below online at [Try APL](tryapl.org) or [ngn-apl](
 ```
 - `⍕` (**Dyadic**: Format / Round) right argument to N decimal places, where N is left argument. If N=0, then this is same as finding nearest integer to number.
 
+### User Defined Functions
+- Create a `dfn` style function that takes inputs: right argument `⍵`, and optionally left argument `⍺`.
+- An **ambivalent function**, that can be called monadically (with one argument) or dyadically (with 2 arguments), can be defined like this:
+```apl
+f ← {⍺←0 ⋄ ⍺ ⍵}    ⍝ ⍺ has default value 0
+f 2                ⍝ monadic (one argument) use             
+1 f 2              ⍝ dyadic (2 arguments) use
+```
+
 ### Matrix
 - [Laminate (comma with fractional axis)](https://mastering.dyalog.com/Working-on-Data-Shape.html) can:
     - Join vectors into matrix as rows - `A,[0.5]B`
@@ -121,7 +130,8 @@ See the [reference](https://dfns.dyalog.com/n_Dates.htm).
 - $sin(x)$ using Taylor expansion $x - x^3/3! + x^5/5! - x^7/7! ...$
 ```apl
 ⎕IO ← 0
-sin ← {(⍺⍴1 ¯1)+.×(!÷⍨⍵∘*)1+2×⍳⍺}
+sin ← {⍺←100 ⋄ (⍺⍴1 ¯1)+.×(!÷⍨⍵∘*)1+2×⍳⍺}
+sin 0          ⍝ example - sin(0)
 100 sin ○.5    ⍝ example - sin(pi/2) using 100 values of Taylor expansion
 ```
 **Note:** This works in [ngn-apl](https://sohang3112.github.io/ngn-apl/) but raises `DOMAIN ERROR` in Dyalog APL.
