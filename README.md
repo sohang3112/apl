@@ -57,7 +57,7 @@ You can try most of the code below online at [Try APL](tryapl.org) or [ngn-apl](
 ```
 - `⍕` (**Dyadic**: Format / Round) right argument to N decimal places, where N is left argument. If N=0, then this is same as finding nearest integer to number.
 
-### User Defined Functions
+### [User Defined Functions](https://xpqz.github.io/learnapl/functions.html)
 - Create a `dfn` style function that takes inputs: right argument `⍵`, and optionally left argument `⍺`.
 - An **ambivalent function** can be called monadically (with one argument) or dyadically (with 2 arguments).
 One way to define ambivalent function is [a dfn with default left argument](https://xpqz.github.io/learnapl/functions.html?highlight=dfn#default-left-argument):
