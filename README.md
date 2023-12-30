@@ -59,7 +59,8 @@ You can try most of the code below online at [Try APL](tryapl.org) or [ngn-apl](
 
 ### User Defined Functions
 - Create a `dfn` style function that takes inputs: right argument `⍵`, and optionally left argument `⍺`.
-- An **ambivalent function**, that can be called monadically (with one argument) or dyadically (with 2 arguments), can be defined like this:
+- An **ambivalent function** can be called monadically (with one argument) or dyadically (with 2 arguments).
+One way to define ambivalent function is [a dfn with default left argument](https://xpqz.github.io/learnapl/functions.html?highlight=dfn#default-left-argument):
 ```apl
 f ← {⍺←0 ⋄ ⍺ ⍵}    ⍝ ⍺ has default value 0
 f 2                ⍝ monadic (one argument) use             
