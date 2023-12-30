@@ -4,11 +4,11 @@ Solutions of various problems in **Dyalog APL**
 **Note:** An overview of the most used APL symbols can be found in [this cheatsheet](https://awagga.github.io/dyalog/voc/).
 
 ## Resources
-You can try most of the code below at [Try APL](tryapl.org).
+You can try most of the code below online at [Try APL](tryapl.org) or [ngn-apl](https://sohang3112.github.io/ngn-apl/).
 
 ## TODO
 - Go through [this cheatsheet](https://github.com/ThePoetCoder/APL-to-NumPy/blob/main/APL%20to%20NumPy.ipynb) for translating between Numpy (Python) and APL
-- [This Python code](https://stackoverflow.com/a/43331484/12947681) calculates Precision, Recall, Sensitivity, etc. Understand thoroughly (develop intuition) and tranlate to APL.
+- [This Python code](https://stackoverflow.com/a/43331484/12947681) calculates Precision, Recall, Sensitivity, etc. Understand thoroughly (develop intuition) and translate to APL.
 
 ### Web Books
 - [Mastering Dyalog APL](https://mastering.dyalog.com)
@@ -25,7 +25,7 @@ You can try most of the code below at [Try APL](tryapl.org).
 - [Research Paper: Conventional Neural Networks with APL](https://dl.acm.org/doi/10.1145/3315454.3329960) - see its complete code in [its Github repo](https://github.com/ashinkarov/cnn-in-apl)
 
 ## TODO
-- Study Power Operator `⍣` operator as a (possible) replacement for `while` loop.
+- Study the Power Operator `⍣` operator as a (possible) replacement for `while` loop.
 
 ## Workspaces
 - `⎕CY 'dfns'` is equivalent to `from dfns import *` in Python - i.e., import everything unqualified from given workspace.
@@ -112,11 +112,19 @@ See the [reference](https://dfns.dyalog.com/n_Dates.htm).
     - right argument is an array of coefficients of polynomial (highest power to lowest (constant) power)
     - left argument is value at which polynomial is to be evaluated. 
 
- - Function to compare two arrays by priority - `×1↑0,⍨(0~⍨-)`, i.e.,
+- Function to compare two arrays by priority - `×1↑0,⍨(0~⍨-)`, i.e.,
    first compare first elements, then second elements, and so on until the arrays diverge.
    The result is `1` (Left > Right), `¯1` (Left < Right) or `0` (Left = Right).
    
-  - `{∘.(=×⍵⌷⍨⊢)⍨⍳≢⍵}` - function to create [diagonal matrix](https://en.wikipedia.org/wiki/Diagonal_matrix) using array
+- `{∘.(=×⍵⌷⍨⊢)⍨⍳≢⍵}` - function to create [diagonal matrix](https://en.wikipedia.org/wiki/Diagonal_matrix) using array
+
+- $sin(x)$ using Taylor expansion $x - x^3/3! + x^5/5! - x^7/7! ...$
+```apl
+⎕IO ← 0
+sin ← {(⍺⍴1 ¯1)+.×(!÷⍨⍵∘*)1+2×⍳⍺}
+100 sin ○.5    ⍝ example - sin(pi/2) using 100 values of Taylor expansion
+```
+**Note:** This works in [ngn-apl](https://sohang3112.github.io/ngn-apl/) but raises `DOMAIN ERROR` in Dyalog APL.
 
 ### Computer Network
 - Hemming Distance - `+.(|-)` 
