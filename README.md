@@ -6,6 +6,8 @@ Solutions of various problems in **Dyalog APL**
 ## Resources
 You can try most of the code below online at [Try APL](tryapl.org) or [ngn-apl](https://sohang3112.github.io/ngn-apl/).
 
+**NOTE:** [ngn-apl](https://sohang3112.github.io/ngn-apl/) can also be used offline in a computer / phone after [installing as a PWA (Progressive Web App)](https://support.google.com/chrome/answer/9658361?hl=en&co=GENIE.Platform%3DDesktop).
+
 ## TODO
 - Go through [this cheatsheet](https://github.com/ThePoetCoder/APL-to-NumPy/blob/main/APL%20to%20NumPy.ipynb) for translating between Numpy (Python) and APL
 - [This Python code](https://stackoverflow.com/a/43331484/12947681) calculates Precision, Recall, Sensitivity, etc. Understand thoroughly (develop intuition) and translate to APL.
