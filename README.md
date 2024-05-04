@@ -56,6 +56,7 @@ You can try most of the code below online at [Try APL](tryapl.org) or [ngn-apl](
 ```apl
 ⍝ If we try to take more elements than size of argument, then rest are padded with 0s
 5↑1 4        ⍝ 1 4 0 0 0
+¯3↑'missisipi'  ⍝ negative index means take from end - 'ipi'
 ```
 - `⍕` (**Dyadic**: Format / Round) right argument to N decimal places, where N is left argument. If N=0, then this is same as finding nearest integer to number.
 
