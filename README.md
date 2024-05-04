@@ -43,6 +43,11 @@ You can try most of the code below online at [Try APL](tryapl.org) or [ngn-apl](
 - `∘.(=×⊢)⍨⍳N` is ~200x slower than `A ← N N⍴0 ⋄ A[,⍨¨⍳N] ← ⍳N` for creating a [Diagonal Matrix](https://en.wikipedia.org/wiki/Diagonal_matrix) for `N←1000` - I measured this with `]PERFORMANCE.runtime`!
 
 ## Basic Idioms
+- `≠` (*Monadic:* [Unique Mask](https://aplwiki.com/wiki/Unique_Mask), *Dyadic:* Not Equals)
+```apl
+≠1 2 1 2 4 4 5 2 1   ⍝ 1 2 0 0 1 0 1 0 0 - Unique Mask: mark first occurance of value in list as 1, rest as 0
+3 1≠4 1      ⍝ 1 0 - Not Equals
+```
 - `!` (*Monadic:* Factorial, *Dyadic:* `nCr`):
 ```apl
 !5      ⍝ 120 - Factorial of 5
