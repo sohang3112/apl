@@ -4,9 +4,9 @@ Solutions of various problems in **Dyalog APL**
 **Note:** An overview of the most used APL symbols can be found in [this cheatsheet](https://awagga.github.io/dyalog/voc/).
 
 ## Resources
-You can try most of the code below online at [Try APL](tryapl.org) or [ngn-apl](https://sohang3112.github.io/ngn-apl/).
+You can try most of the code below online at [Try APL](tryapl.org) or [ngn-apl](https://abrudz.github.io/ngn-apl/).
 
-**NOTE:** [ngn-apl](https://sohang3112.github.io/ngn-apl/) can also be used offline in a computer / phone after [installing as a PWA (Progressive Web App)](https://support.google.com/chrome/answer/9658361?hl=en&co=GENIE.Platform%3DDesktop).
+**NOTE:** [ngn-apl](https://abrudz.github.io/ngn-apl/) can also be used offline in a computer / phone after [installing as a PWA (Progressive Web App)](https://support.google.com/chrome/answer/9658361?hl=en&co=GENIE.Platform%3DDesktop).
 
 ## TODO
 - Go through [this cheatsheet](https://github.com/ThePoetCoder/APL-to-NumPy/blob/main/APL%20to%20NumPy.ipynb) for translating between Numpy (Python) and APL
@@ -18,13 +18,26 @@ You can try most of the code below online at [Try APL](tryapl.org) or [ngn-apl](
 - [APL Cultivations](https://xpqz.github.io/cultivations) is another good book (by the same author)
 
 ### Lists of Resources
+- [APL Wiki: Learning Resources list](https://aplwiki.com/wiki/Learning_resources)
+- [APL Wiki: Chat Rooms list (Reddit, Matrix, Facebook, etc.)](https://aplwiki.com/wiki/Chat_rooms_and_forums)
 - [Discord: APL Resources](https://discord.com/channels/821509511977762827/821511868744728647)
 - [Discord: APL Recommendations](https://discord.com/channels/821509511977762827/915731546160386099)
 - [APL News](https://apl.news/)
+- YouTube channel focusing on J language (a derivative of APL): https://www.youtube.com/@tangentstorm
+
+Also *Adám* on [The APL Farm (Discord)](https://discord.com/channels/821509511977762827/882836109661470771) said this, haven't tried it:
+
+> If you're on Windows, then ⎕load'arachnid  for an (old-style APL) implementation of a Windos GUI Spider Solitaire.
 
 ### Neural Networks
 - [YouTube Series: Learn APL with Neural Networks](https://www.youtube.com/playlist?list=PLgTqamKi1MS3p-O0QAgjv5vt4NY5OgpiM)
 - [Research Paper: Conventional Neural Networks with APL](https://dl.acm.org/doi/10.1145/3315454.3329960) - see its complete code in [its Github repo](https://github.com/ashinkarov/cnn-in-apl)
+
+### Real World Applications built in APL
+- [Games (Web Apps) built in APL using MiServer framework](https://miserver.dyalog.com/Examples/Applications/)
+- [Building web services with APL](https://github.com/Dyalog/Jarvis/wiki)
+- [Pixel Art Editor in APL](https://github.com/tabbytranspose/APixeL)
+- [Subway Route Planner in APL](https://dfns.dyalog.com/tube_n_index.htm)
 
 ## TODO
 - Study the Power Operator `⍣` operator as a (possible) replacement for `while` loop.
