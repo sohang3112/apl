@@ -3,6 +3,9 @@ Solutions of various problems in **Dyalog APL**
 
 **Note:** An overview of the most used APL symbols can be found in [this cheatsheet](https://awagga.github.io/dyalog/voc/).
 
+## APL Competitions
+- [APL Forge](https://forge.dyalog.com/) - a competition where you can showcase APL projects/libraries
+
 ## Resources
 You can try most of the code below online at [Try APL](tryapl.org) or [ngn-apl](https://abrudz.github.io/ngn-apl/).
 
