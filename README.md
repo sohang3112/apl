@@ -225,6 +225,7 @@ D ← 0.01                           ⍝ drift per day
 ## Misc
 
 ### Functions
+- **Softmax**: Output activation function for multi-class classifier Neural Networks: `(⊢÷+/)*`
 - Calcuating tax according to tax slabs:
 ```apl
 tax_calculate ← {(⍺[;2]÷100)+.×2-/⍵,⍺[;1]}      
