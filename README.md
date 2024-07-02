@@ -3,6 +3,10 @@ Solutions of various problems in **Dyalog APL**
 
 **Note:** An overview of the most used APL symbols can be found in [this cheatsheet](https://awagga.github.io/dyalog/voc/).
 
+## TODO
+- Go through [this cheatsheet](https://github.com/ThePoetCoder/APL-to-NumPy/blob/main/APL%20to%20NumPy.ipynb) for translating between Numpy (Python) and APL
+- [This Python code](https://stackoverflow.com/a/43331484/12947681) calculates Precision, Recall, Sensitivity, etc. Understand thoroughly (develop intuition) and translate to APL.
+
 ## APL Competitions
 - [APL Forge](https://forge.dyalog.com/) - a competition where you can showcase APL projects/libraries
 
@@ -11,16 +15,13 @@ You can try most of the code below online at [Try APL](tryapl.org) or [ngn-apl](
 
 **NOTE:** [ngn-apl](https://abrudz.github.io/ngn-apl/) can also be used offline in a computer / phone after [installing as a PWA (Progressive Web App)](https://support.google.com/chrome/answer/9658361?hl=en&co=GENIE.Platform%3DDesktop).
 
-## TODO
-- Go through [this cheatsheet](https://github.com/ThePoetCoder/APL-to-NumPy/blob/main/APL%20to%20NumPy.ipynb) for translating between Numpy (Python) and APL
-- [This Python code](https://stackoverflow.com/a/43331484/12947681) calculates Precision, Recall, Sensitivity, etc. Understand thoroughly (develop intuition) and translate to APL.
-
 ### Web Books
 - [Mastering Dyalog APL](https://mastering.dyalog.com)
 - [Learn APL](https://xpqz.github.io/learnapl)
 - [APL Cultivations](https://xpqz.github.io/cultivations) is another good book (by the same author)
 
 ### Lists of Resources
+- [APL Cart](https://aplcart.info/) - search here for various common APL idioms
 - [APL Wiki: Learning Resources list](https://aplwiki.com/wiki/Learning_resources)
 - [APL Wiki: Chat Rooms list (Reddit, Matrix, Facebook, etc.)](https://aplwiki.com/wiki/Chat_rooms_and_forums)
 - [Discord: APL Resources](https://discord.com/channels/821509511977762827/821511868744728647)
@@ -80,6 +81,7 @@ Also *Adám* on [The APL Farm (Discord)](https://discord.com/channels/8215095119
 ¯3↑'missisipi'  ⍝ negative index means take from end - 'ipi'
 ```
 - `⍕` (**Dyadic**: Format / Round) right argument to N decimal places, where N is left argument. If N=0, then this is same as finding nearest integer to number.
+- `@` At operator - replace elements in an array at indices by some values. Has variants - eg. you can pass a function to determine which indices to replace at, and a function to determine the replacement value at positions.
 
 ### [User Defined Functions](https://xpqz.github.io/learnapl/functions.html)
 - Create a `dfn` style function that takes inputs: right argument `⍵`, and optionally left argument `⍺`.
