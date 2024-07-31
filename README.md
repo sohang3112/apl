@@ -4,6 +4,7 @@ Solutions of various problems in **Dyalog APL**
 **Note:** An overview of the most used APL symbols can be found in [this cheatsheet](https://awagga.github.io/dyalog/voc/).
 
 ## TODO
+- Try running [Dyalog APL in Jupyter Notebooks](https://dyalog.github.io/dyalog-jupyter-kernel/online/).
 - Go through [this cheatsheet](https://github.com/ThePoetCoder/APL-to-NumPy/blob/main/APL%20to%20NumPy.ipynb) for translating between Numpy (Python) and APL
 - [This Python code](https://stackoverflow.com/a/43331484/12947681) calculates Precision, Recall, Sensitivity, etc. Understand thoroughly (develop intuition) and translate to APL.
 
