@@ -44,6 +44,12 @@ Also *Adám* on [The APL Farm (Discord)](https://discord.com/channels/8215095119
 - [Pixel Art Editor in APL](https://github.com/tabbytranspose/APixeL)
 - [Subway Route Planner in APL](https://dfns.dyalog.com/tube_n_index.htm)
 
+### APL Derivatives Resources
+
+#### [J](https://jsoftware.com)
+
+- [Juno online IDE for J](https://jsoftware.github.io/juno/app/)
+
 ## TODO
 - Study the Power Operator `⍣` operator as a (possible) replacement for `while` loop.
 
