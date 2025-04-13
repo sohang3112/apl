@@ -46,6 +46,8 @@ Also *Adám* on [The APL Farm (Discord)](https://discord.com/channels/8215095119
 
 ### APL Derivatives Resources
 
+Resources on many array oriented languages inspired by APL:
+
 #### [J](https://jsoftware.com)
 
 - [Juno online IDE for J](https://jsoftware.github.io/juno/app/)
