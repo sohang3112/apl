@@ -29,7 +29,7 @@ $ ./j9.6/bin/jconsole             # start terminal REPL
 export PATH="~/j9.6/bin:$PATH"
 ```
 
-`jconsole` most common usage is `jconsole` (no argumets: start a terminal REPL) 
+Most common usage is `jconsole` (no argumets: start a terminal REPL) 
 or `jconsole /path/to/script`. 
 For more arguments, 
 see [the official J wiki](https://code.jsoftware.com/wiki/System/Starting_J).
