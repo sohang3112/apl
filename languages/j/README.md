@@ -9,6 +9,15 @@ J is completely open source.
   https://jsoftware.github.io/j-playground/bin/html2/
 - [Juno web IDE for J](https://code.jsoftware.com/wiki/APL2JPhraseBook)
 
+## TODO
+
+- Add a page in https://learnxinyminutes.com for J, inspired by existing APL page.
+- Translate [Learn APL](https://xpqz.github.io/learnapl) book to J.
+- Add J syntax rules to [Github Linguist](https://github.com/github-linguist/linguist) so that J gets syntax highlighted on Github (in standalone as well as markdown files).
+- `jconsole`:
+   - add tldr page, man page, CLI `--help` & `--version`.
+   - add README.md, CONTRIBUTING.md
+
 ## Install J Locally
 
 ### Install `jconsole` terminal REPL
