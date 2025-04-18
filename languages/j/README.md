@@ -11,6 +11,7 @@ J is completely open source.
 
 ## TODO
 
+- Add editor integration section (eg. VS Code extensions, if any).
 - Add a page in https://learnxinyminutes.com for J, inspired by existing APL page.
 - Translate [Learn APL](https://xpqz.github.io/learnapl) book to J.
 - Add J syntax rules to [Github Linguist](https://github.com/github-linguist/linguist) so that J gets syntax highlighted on Github (in standalone as well as markdown files).
@@ -20,7 +21,7 @@ J is completely open source.
 
 ## Install J Locally
 
-### Install `jconsole` terminal REPL
+### Install `jconsole` (terminal REPL) & JHS (web localhost interface)
 
 See [platform-specific install instructions](https://code.jsoftware.com/wiki/System/Installation/J9.6).
 For Fedora linux, do:
@@ -31,17 +32,23 @@ $ tar xvf j9.6_linux64.tar.gz     # extract archive
 $ ./j9.6/bin/jconsole             # start terminal REPL
 ```
 
-*Recommended* add `jconsole` to environment PATH by adding this in *~/.bashrc*
+*Recommended* add `jconsole`, `jhs` to environment PATH by adding this in *~/.bashrc*
 (assuming you installed it in your home):
 
 ```bash
 export PATH="~/j9.6/bin:$PATH"
 ```
 
-Most common usage is `jconsole` (no argumets: start a terminal REPL) 
-or `jconsole /path/to/script`. 
+**Terminal interface**:
+Run `jconsole` (no argumets: start a terminal REPL) or `jconsole /path/to/script`. 
 For more arguments, 
 see [the official J wiki](https://code.jsoftware.com/wiki/System/Starting_J).
+
+**Web (localhost) interface**:
+In terminal run `jhs` - this starts a server on localhost and automatically opens browser at *http://127.0.0.1:65001/jijx*.
+The web interace is basic (similar to terminal REPL) - type code in input, press Enter to get output.
+JQt (the Qt-based IDE) is usually preferred, but if that doesn't work (eg. install error due to Qt dependencies),
+then JHS is a useful fallback.
 
 #### (Optional) [Run J shebang scripts](https://code.jsoftware.com/wiki/System/Installation/J9.6#J_scripting_support)
 
@@ -57,7 +64,7 @@ Making it executable `chmod +x script.j` and running it `./script` prints Hello 
 as expected. Note that it doesn't end the script but instead leaves REPL running.
 
 
-### Install [`pacman` (J package manager)](https://code.jsoftware.com/wiki/Pacman) & [JQt IDE](https://code.jsoftware.com/wiki/Guides/Qt_IDE)
+### (Optional) Install [`pacman` (J package manager)](https://code.jsoftware.com/wiki/Pacman) & [JQt IDE](https://code.jsoftware.com/wiki/Guides/Qt_IDE)
 
 - JQt IDE requires Qt 5 - do `sudo dnf install qt5-qtwebengine-devel.x86_64`
 (or `sudo dnf install qt5-devel` on older Fedora before that package was split),
