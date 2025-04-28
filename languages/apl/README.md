@@ -223,6 +223,12 @@ D ← 0.01                           ⍝ drift per day
 - [Parsing Files - Text, CSV, XML, HTTP](https://xpqz.github.io/learnapl/io.html)
 - Change Working Directory - `]CD 'directory-path-here'`
 - [JSON (detailed)](https://xpqz.github.io/learnapl/io.html#reading-json-json)
+- Parse CLI (command line) arguments (here printing them):
+
+```apl
+⍝ Accessing arguments
+⎕←¨1↓2⎕NQ#'GetCommandLineArgs'
+```
 
 
 ## Misc
