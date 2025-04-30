@@ -11,7 +11,6 @@ J is completely open source.
 
 ## TODO
 
-- Add editor integration section (eg. VS Code extensions, if any).
 - Add a page in https://learnxinyminutes.com for J, inspired by existing APL page.
 - Translate [Learn APL](https://xpqz.github.io/learnapl) book to J.
 - Add J syntax rules to [Github Linguist](https://github.com/github-linguist/linguist) so that J gets syntax highlighted on Github (in standalone as well as markdown files).
@@ -83,7 +82,7 @@ lists some other Qt packages to install also, like `libqtwebsockets5`.
 I didn't install these but Fedora 41 didn't raise any issue when running JQt IDE - perhaps 
 these Qt packages are already installed?
  
-#### [Install / upgrade JQt IDE](https://code.jsoftware.com/wiki/Guides/Qt_IDE/Install#Upgrade)
+### (Optional) [Install / upgrade JQt IDE](https://code.jsoftware.com/wiki/Guides/Qt_IDE/Install#Upgrade)
 
 Run `sh ~/j9.6/updatejqt.sh`(or equivalently construct path based on jconsole: 
 `sh $(dirname $(which jconsole))/../updatejqt.sh`).
@@ -107,7 +106,7 @@ Optionally [Configure JQt IDE](https://code.jsoftware.com/wiki/Guides/Qt_IDE/Con
 NOTE: Check all usage ways of `jpkg` J function: 
 https://code.jsoftware.com/wiki/Pacman#jpkg_Usage .
 
-##### (Optional) Install Desktop Shortcut
+#### (Optional) Install JQt IDE Desktop Shortcut
 
 [Official Docs](https://code.jsoftware.com/wiki/Pacman#Installing_Desktop_Shortcuts)
 say to run the following in `jconsole`:
@@ -139,6 +138,12 @@ Icon=/home/sohangchopra/Pictures/j_language_logo.png
 MimeType=image/png               
 Categories=Development
 ```
+
+### Editor Integration
+
+Besides the official JQt IDE mentioned above, you can also install extensions to support J in various editors (for syntax highlighting etc.):
+
+- [VS Code J extension](https://marketplace.visualstudio.com/items/?itemName=tikkanz.language-j)
 
 ## Usage
 
