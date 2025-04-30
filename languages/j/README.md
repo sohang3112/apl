@@ -139,7 +139,7 @@ MimeType=image/png
 Categories=Development
 ```
 
-### Editor Integration
+## Editor Integration
 
 Besides the official JQt IDE mentioned above, you can also install extensions to support J in various editors (for syntax highlighting etc.):
 
@@ -148,7 +148,7 @@ Besides the official JQt IDE mentioned above, you can also install extensions to
 ## Usage
 
 - Print to console: `echo 'Hello World'`
-- Comments start with `NB` (till end of the line): `1 2 + 3 4        NB This is a comment.`
+- Comments start with `NB.` (till end of the line): `1 2 + 3 4   NB. This is a comment.`. Mind the dot after NB !
 
 TODO
 
