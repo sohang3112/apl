@@ -7,7 +7,7 @@ J is completely open source.
 
 - [J Playground](https://code.jsoftware.com/wiki/Category:J_Playground_P): 
   https://jsoftware.github.io/j-playground/bin/html2/
-- [Juno web IDE for J](https://code.jsoftware.com/wiki/APL2JPhraseBook)
+- [Juno web IDE for J](https://jsoftware.github.io/juno/app/)
 
 ## TODO
 
