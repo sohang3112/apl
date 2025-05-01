@@ -185,7 +185,8 @@ TODO
 ### [Videos](https://code.jsoftware.com/wiki/VideoInstructionInJ)
 
 YouTube videos on J: a lot of the listed videos are by 
-[@bobtherriault](https://www.youtube.com/@bobtherriault)
+[@bobtherriault](https://www.youtube.com/@bobtherriault) and 
+[@tangentstorm](https://www.youtube.com/@tangentstorm).
 
 ### [Blogs](https://code.jsoftware.com/wiki/Category:Blogs_C.2)
 

@@ -28,7 +28,7 @@ You can try most of the code below online at [Try APL](tryapl.org) or [ngn-apl](
 - [Discord: APL Resources](https://discord.com/channels/821509511977762827/821511868744728647)
 - [Discord: APL Recommendations](https://discord.com/channels/821509511977762827/915731546160386099)
 - [APL News](https://apl.news/)
-- YouTube channel focusing on J language (a derivative of APL): https://www.youtube.com/@tangentstorm
+- [Learn APL in Y minutes](https://learnxinyminutes.com/apl/)
 
 Also *Adám* on [The APL Farm (Discord)](https://discord.com/channels/821509511977762827/882836109661470771) said this, haven't tried it:
 
