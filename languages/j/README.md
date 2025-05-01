@@ -141,9 +141,13 @@ Categories=Development
 
 ## Editor Integration
 
-Besides the official JQt IDE mentioned above, you can also install extensions to support J in various editors (for syntax highlighting etc.):
+Besides the official JQt IDE mentioned above, you can also install extensions to support J in various editors.
 
-- [VS Code J extension](https://marketplace.visualstudio.com/items/?itemName=tikkanz.language-j)
+### VS Code
+
+- [VS Code J extension](https://marketplace.visualstudio.com/items/?itemName=tikkanz.language-j): adds syntax highlighting to J scripts.
+- [Terminal Send extension (language-agnostic)](https://marketplace.visualstudio.com/items?itemName=sswatson.terminal-send) sends selected    text to VS Code integrated terminal. In VS Code integrated terminal, start `jconsole` REPL, then select code in a J script
+  and use Shift+Enter to send & run selected code in `jconsole`.
 
 ## Usage
 
