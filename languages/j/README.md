@@ -153,6 +153,7 @@ Besides the official JQt IDE mentioned above, you can also install extensions to
 
 - Print to console: `echo 'Hello World'`
 - Comments start with `NB.` (till end of the line): `1 2 + 3 4   NB. This is a comment.`. Mind the dot after NB !
+- File I/O operations: https://code.jsoftware.com/wiki/Vocabulary/Foreigns#m1
 
 TODO
 
@@ -177,6 +178,7 @@ TODO
 - [J for the APL Programmer](https://code.jsoftware.com/wiki/Doc/J4APL#J_for_the_APL_Programmer) - 
   J equivalents to APL functions are shown in 
   [APL -> J Phrase Book](https://code.jsoftware.com/wiki/APL2JPhraseBook).
+- [J Shell Scripting Guide](https://code.jsoftware.com/wiki/Guides/J_Shell_Script)
 - [J Essays](https://code.jsoftware.com/wiki/Essays)
 
 ### Exercises: [J Showcase](https://code.jsoftware.com/wiki/Showcase)
