@@ -153,9 +153,21 @@ Besides the official JQt IDE mentioned above, you can also install extensions to
 
 - Print to console: `echo 'Hello World'`
 - Comments start with `NB.` (till end of the line): `1 2 + 3 4   NB. This is a comment.`. Mind the dot after NB !
-- File I/O operations: https://code.jsoftware.com/wiki/Vocabulary/Foreigns#m1
 
-TODO
+TODO:
+
+- [Control Structures](https://www.jsoftware.com/help/dictionary/ctrl.htm) can only be used in Explicit functions:
+  - [`if.`](https://www.jsoftware.com/help/dictionary/cif.htm)
+  - [`select.`](https://www.jsoftware.com/help/dictionary/csel.htm) - similar to `match` in Python.
+  - [`for.`](https://www.jsoftware.com/help/dictionary/cfor.htm)
+  - [`break.`](https://www.jsoftware.com/help/dictionary/cbreak.htm)
+  - [`continue.`](https://www.jsoftware.com/help/dictionary/ccont.htm)
+  - [`goto_name.`](https://www.jsoftware.com/help/dictionary/cgoto.htm)
+  - [`return.`](https://www.jsoftware.com/help/dictionary/cret.htm)
+  - [`throw.`](https://www.jsoftware.com/help/dictionary/cthrow.htm)
+  - [`try.`](https://www.jsoftware.com/help/dictionary/ctry.htm)
+  - [`assert.`](https://www.jsoftware.com/help/dictionary/cassert.htm)
+- File I/O operations: https://code.jsoftware.com/wiki/Vocabulary/Foreigns#m1
 
 ## Real World Applications
 
