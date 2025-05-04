@@ -153,6 +153,12 @@ Besides the official JQt IDE mentioned above, you can also install extensions to
 
 - Print to console: `echo 'Hello World'`
 - Comments start with `NB.` (till end of the line): `1 2 + 3 4   NB. This is a comment.`. Mind the dot after NB !
+- [This SO answer](https://stackoverflow.com/a/5087557/12947681) shows how to use [Power `^:`](http://www.jsoftware.com/help/dictionary/d202n.htm) to repeatedly apply a function to a value a number of times:
+
+```j
+NB. Apply function f 10 times, y is initial value.
+f^:10 y
+```
 
 TODO:
 
