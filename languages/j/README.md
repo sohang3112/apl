@@ -166,6 +166,10 @@ Besides the official JQt IDE mentioned above, you can also install extensions to
 1 2 3 4 5
    +/ ". line   NB. parse string to numbers array, then sum
 10
+
+   'Hello, ',(1!:1)1  NB. read name, print greeting
+Sohang
+Hello, Sohang
 ```
 
 - [This SO answer](https://stackoverflow.com/a/5087557/12947681) shows how to use [Power `^:`](http://www.jsoftware.com/help/dictionary/d202n.htm) to repeatedly apply a function to a value a number of times:
