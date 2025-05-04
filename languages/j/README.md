@@ -207,6 +207,7 @@ TODO:
 
 ## Resources
 
+- https://github.com/bugsbugsbux/understanding-j/
 - Tutorial: [Absolutely Essential Terms](https://code.jsoftware.com/wiki/Vocabulary/AET)
 - [Minimal Subset of J](https://code.jsoftware.com/wiki/User:Devon_McCormick/MinimalBeginningJ)
 - J Vocablary: 
