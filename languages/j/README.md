@@ -153,6 +153,21 @@ Besides the official JQt IDE mentioned above, you can also install extensions to
 
 - Print to console: `echo 'Hello World'`
 - Comments start with `NB.` (till end of the line): `1 2 + 3 4   NB. This is a comment.`. Mind the dot after NB !
+- [Format / parse numbers](https://code.jsoftware.com/wiki/Guides/General_FAQ/Numbers_and_Character_Representations):
+
+```j
+   'r<0>4.0' 8!:0 i.5  NB. format numbers, padded with leading zeros
++----+----+----+----+----+
+|0000|0001|0002|0003|0004|
++----+----+----+----+----+
+
+   read =: 1!:1
+   line =: read 1  NB. 1 for keyboard, can also put filename to read from file
+1 2 3 4 5
+   +/ ". line   NB. parse string to numbers array, then sum
+10
+```
+
 - [This SO answer](https://stackoverflow.com/a/5087557/12947681) shows how to use [Power `^:`](http://www.jsoftware.com/help/dictionary/d202n.htm) to repeatedly apply a function to a value a number of times:
 
 ```j
