@@ -156,9 +156,10 @@ Besides the official JQt IDE mentioned above, you can also install extensions to
 
 TODO:
 
-- [Control Structures](https://www.jsoftware.com/help/dictionary/ctrl.htm) can only be used in Explicit functions:
+- [Control Structures](https://www.jsoftware.com/help/dictionary/ctrl.htm) can only be used in Explicit functions (this page in J Primer gives good overview: https://www.jsoftware.com/help/jforc/control_structures.htm):
   - [`if.`](https://www.jsoftware.com/help/dictionary/cif.htm)
   - [`select.`](https://www.jsoftware.com/help/dictionary/csel.htm) - similar to `match` in Python.
+  - `while.`, whilst.` (check J Primer page above)
   - [`for.`](https://www.jsoftware.com/help/dictionary/cfor.htm)
   - [`break.`](https://www.jsoftware.com/help/dictionary/cbreak.htm)
   - [`continue.`](https://www.jsoftware.com/help/dictionary/ccont.htm)
