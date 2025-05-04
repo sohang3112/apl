@@ -38,6 +38,13 @@ $ ./j9.6/bin/jconsole             # start terminal REPL
 export PATH="~/j9.6/bin:$PATH"
 ```
 
+NOTE: This worked on Fedora 41, but after upgrading to Fedora 42 this issue is coming while trying to run `jconsole`:
+
+```console
+$ jconsole
+Load library /home/sohangchopra/j9.6/bin/libj.so failed: /home/sohangchopra/j9.6/bin/libj.so: cannot enable executable stack as shared object requires: Invalid argument
+```
+
 **Terminal interface**:
 Run `jconsole` (no argumets: start a terminal REPL) or `jconsole /path/to/script`. 
 For more arguments, 
