@@ -83,6 +83,11 @@ Also *Adám* on [The APL Farm (Discord)](https://discord.com/channels/8215095119
 ```
 - `⍕` (**Dyadic**: Format / Round) right argument to N decimal places, where N is left argument. If N=0, then this is same as finding nearest integer to number.
 - `@` At operator - replace elements in an array at indices by some values. Has variants - eg. you can pass a function to determine which indices to replace at, and a function to determine the replacement value at positions.
+- [Partition `⊆` and Partitioned Enclose `⊂`](https://xpqz.github.io/learnapl/cookbook1.html) - example split sentence on spaces:
+```apl
+words ← (≠∘' ')⊆⊢
+words ' hello world'
+```
 
 ### [User Defined Functions](https://xpqz.github.io/learnapl/functions.html)
 - Create a `dfn` style function that takes inputs: right argument `⍵`, and optionally left argument `⍺`.
