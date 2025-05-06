@@ -1,7 +1,7 @@
 # [APL](https://en.wikipedia.org/wiki/APL_(programming_language)) Idioms & Solutions
 Solutions of various problems in [Dyalog APL](https://www.dyalog.com/).
 
-**Note:** An overview of the most used APL symbols can be found in [this cheatsheet](https://awagga.github.io/dyalog/voc/).
+**Note:** An overview of the most used APL symbols can be found in [this cheatsheet](https://abrudz.github.io/voc/).
 
 ## TODO
 - Try running [Dyalog APL in Jupyter Notebooks](https://dyalog.github.io/dyalog-jupyter-kernel/online/).
