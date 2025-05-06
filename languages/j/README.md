@@ -178,7 +178,7 @@ Besides the official JQt IDE mentioned above, you can also install extensions to
 Sohang
 Hello, Sohang
 ```
-
+- [Rank conjunction `"`](https://www.jsoftware.com/help/learning/07.htm) can be used to apply a function on a particular axis. Similar to APL's Each `¨` for element wise operation.
 - [This SO answer](https://stackoverflow.com/a/5087557/12947681) shows how to use [Power `^:`](http://www.jsoftware.com/help/dictionary/d202n.htm) to repeatedly apply a function to a value a number of times:
 
 ```j
