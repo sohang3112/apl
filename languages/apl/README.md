@@ -32,7 +32,7 @@ You can try most of the code below online at [Try APL](tryapl.org) or [ngn-apl](
 
 Also *Adám* on [The APL Farm (Discord)](https://discord.com/channels/821509511977762827/882836109661470771) said this, haven't tried it:
 
-> If you're on Windows, then ⎕load'arachnid  for an (old-style APL) implementation of a Windos GUI Spider Solitaire.
+> If you're on Windows, then ⎕load'arachnid  for an (old-style APL) implementation of a Windows GUI Spider Solitaire.
 
 ### Neural Networks
 - [YouTube Series: Learn APL with Neural Networks](https://www.youtube.com/playlist?list=PLgTqamKi1MS3p-O0QAgjv5vt4NY5OgpiM)
@@ -87,6 +87,12 @@ Also *Adám* on [The APL Farm (Discord)](https://discord.com/channels/8215095119
 ```apl
 words ← (≠∘' ')⊆⊢
 words ' hello world'
+```
+
+- Match (≡) checks whether its arguments are exactly the same (gives 1 or 0):
+```apl
+'Bob' ≡ 'Eva'    ⍝0
+1 2 3 ≡ 1 2 3    ⍝1
 ```
 
 ### [User Defined Functions](https://xpqz.github.io/learnapl/functions.html)
