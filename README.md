@@ -4,6 +4,7 @@
 Notes on:
 
 - [APL](languages/apl/)
+    - *Additional APL Resource*: [APL History](https://www.pldi21.org/prerecorded_hopl.2.html)
 - [J](languages/j/)
 - **Kap** (a new lang, in progress, uses APL characters and very similar to it!):
   - repo: https://codeberg.org/loke/array
