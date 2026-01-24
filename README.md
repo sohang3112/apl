@@ -10,6 +10,8 @@ Notes on:
   - repo: https://codeberg.org/loke/array
   - its Array Editor GUI demo looks cool of spreadsheet-like features: https://blog.dhsdevelopments.com/array-languages-vs
 
+[List of open-source array languages (APL & derivatives)](https://aplwiki.com/wiki/List_of_open-source_array_languages) - NOTE: Dyalog APL is proprietary so not listed, but some open source APL implementations are there.
+
 ### Tooling
 - [Dyalog APL  Link](https://dyalog.github.io/link/latest/) -- new recommended way to save code in text files instead of workspace files. Version control can be done externally via Git.
 - This also looks cool (spreadsheet-like GUI editor for K language): https://github.com/chrispsn/mesh-spreadsheet 
