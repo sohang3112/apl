@@ -4,8 +4,10 @@
 Notes on:
 
 - [APL](languages/apl/)
+    - [Dyalog APL Tips](https://www.dyalog.com/getting-started/tips.htm)
     - *Additional APL Resource*: [APL History](https://www.pldi21.org/prerecorded_hopl.2.html)
 - [J](languages/j/)
+    - [J Vocablary](https://www.jsoftware.com/docs/help701/dictionary/vocabul.htm)
 - **Kap** (a new lang, in progress, uses APL characters and very similar to it!):
   - repo: https://codeberg.org/loke/array
   - its Array Editor GUI demo looks cool of spreadsheet-like features: https://blog.dhsdevelopments.com/array-languages-vs
